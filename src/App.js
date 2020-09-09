@@ -22,16 +22,16 @@ import Contact from './components/pages/contact/contact';
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="page-container">
           
           <Header/>
-
-            <Route exact path='/' component={HomePage}/>
-            <Route exact path='/digitalArt' component={DigitalArt}/>
-            <Route exact path='/traditionalArt' component={TraditionalArt}/>
-            <Route exact path='/graphicDesign' component={GraphicDesign}/>
-            <Route exact path='/contact' component={Contact}/>
-          
+            <div className="content-wrap">
+              <Route exact path='/' component={HomePage}/>
+              <Route exact path='/digitalArt' component={DigitalArt}/>
+              <Route exact path='/traditionalArt' component={TraditionalArt}/>
+              <Route exact path='/graphicDesign' component={GraphicDesign}/>
+              <Route exact path='/contact' component={Contact}/>
+            </div>
           <Footer/>
 
       </div>
