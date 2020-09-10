@@ -2,11 +2,13 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Link
+  Link,
+  Switch
 } from 'react-router-dom';
 
 //style
 import './css/default.css'
+
 
 //components
 import  Header from './components/headerComponent/header';
@@ -25,14 +27,14 @@ function App() {
       <div className="page-container">
           
           <Header/>
-            <div className="content-wrap">
+            <Switch className="content-wrap">
               <Route exact path='/' component={HomePage}/>
               <Route exact path='/digitalArt' component={DigitalArt}/>
               <Route exact path='/traditionalArt' component={TraditionalArt}/>
               <Route exact path='/graphicDesign' component={GraphicDesign}/>
               <Route exact path='/contact' component={Contact}/>
-            </div>
-          <Footer/>
+            </Switch>
+         
 
       </div>
     </Router>

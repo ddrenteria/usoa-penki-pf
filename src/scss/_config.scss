@@ -21,7 +21,7 @@ $darkest-gray:          darken($dark-gray, 17.25%); //#181818
 // Color palette
 //-----------------------------
 $primary-color: $white2;
-$secondary-color: $dark-gray;
+$secondary-color: #f8d6a9;
 $tertiary-color: $white;
 $header-font-color: $black;
 $footer-font-color: $black;
@@ -52,8 +52,8 @@ $large-screen-min-width: 1824px;
 
 body {
     // font-family: $header-font-family;
-    font-size: 20px;
-    color: red;
+    // font-size: 20px;
+    // color: red;
     background: $secondary-color;
 }
 
