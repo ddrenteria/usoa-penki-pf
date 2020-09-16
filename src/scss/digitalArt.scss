@@ -1,0 +1,169 @@
+@import "_config.scss";
+img {
+    padding: 20px;
+    margin-top: 10px;
+}
+.img1 {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    width: 350px;
+    height: 350px;
+}
+.img2 {
+    position: absolute;
+    top: 325px;
+    left: 30px;
+    width: 350px;
+    height: 350px;
+}
+.imgbig {
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    width: 500px;
+    height: 500px;
+}
+.imgsmall {
+    position: absolute;
+    top: 475px;
+    left: 400px;
+    width: 500px;
+    height: 200px;
+}
+
+.dig-art-container {
+        position: relative;
+        background: $white2;
+        height: 700px;
+        width: 1200px;
+        margin: 40px auto;
+        z-index: 3;
+        .background-color-digart {
+            background: darkgreen;
+            height: 700px;
+            width: 210px;
+            margin: 40px 0px;
+            z-index: 3;
+            .digart-text {
+                position: absolute;
+                bottom: 30px;
+                width: 210px;
+                padding: 1px;
+                left: auto;
+                right: auto;
+                font-size: 16px;
+                color: $white2;
+                ul li {
+                    margin-top: 15px;
+                }
+            }
+        }
+        .first-galery {
+            position: absolute;
+            left: 210px;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            padding: 20px;
+            
+        }
+}
+
+.dig-art-container2 {
+    position: relative;
+    background: $white2;
+    height: 700px;
+    width: 1200px;
+    margin: 40px auto;
+    z-index: 3;
+    .background-color-digart3 {
+        background: rgb(139, 190, 206);
+        height: 700px;
+        width: 210px;
+        margin: 40px 0px;
+        z-index: 3;
+        .digart-text3 {
+            position: absolute;
+            bottom: 30px;
+            width: 210px;
+            padding: 1px;
+            left: auto;
+            right: auto;
+            font-size: 16px;
+            color: $white2;
+            ul li {
+                margin-top: 15px;
+            }
+        }
+    }
+    .background-color-digart4 {
+        background: rgb(207, 125, 218);
+        height: 700px;
+        width: 210px;
+        margin: 40px 0px;
+        z-index: 3;
+        .digart-text4 {
+            position: absolute;
+            bottom: 30px;
+            width: 210px;
+            padding: 3px;
+            left: auto;
+            right: auto;
+            font-size: 16px;
+            color: $white2;
+            ul li {
+                margin-top: 15px;
+            }
+        }
+    }
+    .background-color-digart5 {
+        background: purple;
+        height: 700px;
+        width: 210px;
+        margin: 40px 0px;
+        z-index: 3;
+        .digart-text5 {
+            position: absolute;
+            bottom: 30px;
+            width: 210px;
+            padding: 1px;
+            left: auto;
+            right: auto;
+            font-size: 16px;
+            color: $white2;
+            ul li {
+                margin-top: 15px;
+            }
+        }
+    }
+    .background-color-digart2 {
+        background: $usoa-red;
+        height: 700px;
+        width: 210px;
+        margin: 40px 0px;
+        z-index: 3;
+        .digart-text2 {
+            position: absolute;
+            bottom: 30px;
+            width: 210px;
+            padding: 1px;
+            left: auto;
+            right: auto;
+            font-size: 16px;
+            color: $white2;
+            ul li {
+                margin-top: 15px;
+            }
+        }
+    }
+    .first-galery {
+        position: absolute;
+        left: 210px;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        padding: 20px;
+        
+    }
+}

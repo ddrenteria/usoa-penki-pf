@@ -4,6 +4,13 @@
   width: 90%;
 }
 
+.homepage-container .frontText-asd {
+  position: absolute;
+  right: 0px;
+  top: 30px;
+  width: 60%;
+}
+
 .portrait-container {
   position: relative;
   height: 100%;
@@ -26,11 +33,4 @@
   left: 0px;
   margin-left: 5%;
   margin-top: 30%;
-}
-
-.frontText-asd {
-  position: absolute;
-  right: 0px;
-  top: 30px;
-  width: 30%;
 }

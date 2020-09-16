@@ -1,0 +1,192 @@
+body {
+  background: #f8d6a9;
+  z-index: -1;
+}
+
+img {
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.img1 {
+  position: absolute;
+  top: 0px;
+  left: 30px;
+  width: 350px;
+  height: 350px;
+}
+
+.img2 {
+  position: absolute;
+  top: 325px;
+  left: 30px;
+  width: 350px;
+  height: 350px;
+}
+
+.imgbig {
+  position: absolute;
+  top: 0px;
+  left: 400px;
+  width: 500px;
+  height: 500px;
+}
+
+.imgsmall {
+  position: absolute;
+  top: 475px;
+  left: 400px;
+  width: 500px;
+  height: 200px;
+}
+
+.dig-art-container {
+  position: relative;
+  background: #fafaf2;
+  height: 700px;
+  width: 1200px;
+  margin: 40px auto;
+  z-index: 3;
+}
+
+.dig-art-container .background-color-digart {
+  background: darkgreen;
+  height: 700px;
+  width: 210px;
+  margin: 40px 0px;
+  z-index: 3;
+}
+
+.dig-art-container .background-color-digart .digart-text {
+  position: absolute;
+  bottom: 30px;
+  width: 210px;
+  padding: 1px;
+  left: auto;
+  right: auto;
+  font-size: 16px;
+  color: #fafaf2;
+}
+
+.dig-art-container .background-color-digart .digart-text ul li {
+  margin-top: 15px;
+}
+
+.dig-art-container .first-galery {
+  position: absolute;
+  left: 210px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 20px;
+}
+
+.dig-art-container2 {
+  position: relative;
+  background: #fafaf2;
+  height: 700px;
+  width: 1200px;
+  margin: 40px auto;
+  z-index: 3;
+}
+
+.dig-art-container2 .background-color-digart3 {
+  background: #8bbece;
+  height: 700px;
+  width: 210px;
+  margin: 40px 0px;
+  z-index: 3;
+}
+
+.dig-art-container2 .background-color-digart3 .digart-text3 {
+  position: absolute;
+  bottom: 30px;
+  width: 210px;
+  padding: 1px;
+  left: auto;
+  right: auto;
+  font-size: 16px;
+  color: #fafaf2;
+}
+
+.dig-art-container2 .background-color-digart3 .digart-text3 ul li {
+  margin-top: 15px;
+}
+
+.dig-art-container2 .background-color-digart4 {
+  background: #cf7dda;
+  height: 700px;
+  width: 210px;
+  margin: 40px 0px;
+  z-index: 3;
+}
+
+.dig-art-container2 .background-color-digart4 .digart-text4 {
+  position: absolute;
+  bottom: 30px;
+  width: 210px;
+  padding: 3px;
+  left: auto;
+  right: auto;
+  font-size: 16px;
+  color: #fafaf2;
+}
+
+.dig-art-container2 .background-color-digart4 .digart-text4 ul li {
+  margin-top: 15px;
+}
+
+.dig-art-container2 .background-color-digart5 {
+  background: purple;
+  height: 700px;
+  width: 210px;
+  margin: 40px 0px;
+  z-index: 3;
+}
+
+.dig-art-container2 .background-color-digart5 .digart-text5 {
+  position: absolute;
+  bottom: 30px;
+  width: 210px;
+  padding: 1px;
+  left: auto;
+  right: auto;
+  font-size: 16px;
+  color: #fafaf2;
+}
+
+.dig-art-container2 .background-color-digart5 .digart-text5 ul li {
+  margin-top: 15px;
+}
+
+.dig-art-container2 .background-color-digart2 {
+  background: #c1160b;
+  height: 700px;
+  width: 210px;
+  margin: 40px 0px;
+  z-index: 3;
+}
+
+.dig-art-container2 .background-color-digart2 .digart-text2 {
+  position: absolute;
+  bottom: 30px;
+  width: 210px;
+  padding: 1px;
+  left: auto;
+  right: auto;
+  font-size: 16px;
+  color: #fafaf2;
+}
+
+.dig-art-container2 .background-color-digart2 .digart-text2 ul li {
+  margin-top: 15px;
+}
+
+.dig-art-container2 .first-galery {
+  position: absolute;
+  left: 210px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 20px;
+}

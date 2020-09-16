@@ -1,5 +1,6 @@
 body {
   background: #f8d6a9;
+  z-index: -1;
 }
 
 header {

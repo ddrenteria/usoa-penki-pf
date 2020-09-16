@@ -10,6 +10,7 @@ import {
 import './css/default.css'
 
 
+
 //components
 import  Header from './components/headerComponent/header';
 import  Footer from './components/footerComponent/footer';
